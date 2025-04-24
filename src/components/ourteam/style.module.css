@@ -1,0 +1,59 @@
+.team {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0A0A0A ;
+
+}
+
+.team h1 {
+    color: #C0C3C9;
+    
+}
+
+.team input {
+    background-color: #0A0A0A;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 350px;
+		/* width: 100%; */
+    padding-left: 10px;
+    color: white;
+}
+
+.attach {
+    text-align: center;
+}
+
+.bton {
+    display: flex;
+		color: #fff;
+    justify-content: center;
+}
+
+
+@media (max-width:992px) and (min-width:769px) {
+	.team {
+		width: 400px;
+		margin: auto;
+}
+}
+
+@media (max-width:768px) and (min-width:550px) {
+    .team {
+        width: 400px;
+        margin: auto;
+    }
+
+}
+
+
+@media (max-width:550px) {
+    .team input {
+        width: 100%;
+        max-width: 300px;
+    }
+}

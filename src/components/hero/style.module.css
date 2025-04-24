@@ -1,0 +1,94 @@
+.wanna {
+
+	background-image: url(../../assets/png/herobg.png);
+	width: 100%;
+	background-size: cover;
+	/* background-position-y: -80px;
+    background-position: 100% 100%; */
+}
+
+.join {
+	height: 400px;
+	padding-top: 180px;
+	padding-bottom: 10px;
+
+}
+
+.join h1 {
+	color: #A7A4AD;
+	padding-left: 50px;
+	font-size: 30px;
+}
+
+.join h2 {
+	color: white;
+	padding-left: 50px;
+	font-size: 30px;
+}
+
+.join p {
+	color: #A7A4AD;
+	padding-top: 10px;
+	padding-left: 50px;
+	max-width: 490px;
+}
+
+@media (min-width:1400px) {
+	.wanna {
+		background-position: center;
+	}
+
+	.join {
+		margin: auto;
+		max-width: 1400px;
+	}
+}
+
+@media (max-width:1400px) and (min-width:1200px) {
+	.wanna {
+		background-position: center;
+	}
+}
+
+@media (max-width:1200px) and (min-width:992px) {
+	.wanna {
+		background-position: center;
+	}
+}
+
+@media (max-width:992px) and (min-width:769px) {
+	.wanna {
+		background-position: center;
+	}
+}
+
+@media (max-width:768px) and (min-width:550px) {
+
+	.wanna {
+		background-position: center;
+	}
+}
+
+@media (max-width:550px) {
+	.wanna {
+		background-image: none;
+	}
+
+	.join {
+		background-image: url(../../assets/png/herobackg.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		/* background-position-y: -120px; */
+		height: 400px;
+		padding-top: 200px;
+	}
+
+	.join h1,
+	.join h2,
+	.join p {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+}
